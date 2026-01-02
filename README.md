@@ -106,6 +106,8 @@ python encryption_tool.py
 - Cryptography learning
 - Data protection demonstrations
 
+---
+
 ## Disclaimer
 
 This tool is intended for educational and personal security use only.
