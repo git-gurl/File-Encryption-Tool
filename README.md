@@ -1,4 +1,4 @@
-# Advanced Encryption Tool 
+# File Encryption Tool 
 
 A secure file encryption and decryption tool using AES-256-GCM with
 password-based key derivation (PBKDF2-HMAC-SHA256).
@@ -69,6 +69,8 @@ python encryption_tool.py
 - Enter correct password
 - Original file is restored
 
+---
+
 ## Supported Operations
 
 | Operation | Description |
@@ -78,6 +80,8 @@ python encryption_tool.py
 | Password Masking | Prevents password exposure |
 | Integrity Check | Detects file tampering |
 
+---
+
 ## Error Handling
 
 - Incorrect password detection
@@ -85,11 +89,15 @@ python encryption_tool.py
 - Invalid file path handling
 - Graceful termination on failure
 
+---
+
 ## Security Notes
 
 - Passwords are never stored
 - Each encryption uses a unique salt and nonce
 - AES-GCM provides built-in integrity verification
+
+---
 
 ## Use Cases
 
